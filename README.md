@@ -71,3 +71,17 @@ Each video is processed into **40 frames** to capture temporal motion features.
 | Validation Loss | ~0.36 |
 
 ✅ Much better generalization and robustness than the scratch model.
+
+---
+
+## 🌐 Deployment with Django
+
+The best-performing **MobileNetV2 + LSTM** model was **successfully deployed using Django**.  
+A simple and intuitive **web interface** was built, allowing users to:
+
+- Upload surveillance videos directly from the browser.  
+- Automatically process and predict whether a shoplifting incident occurred.  
+- Display the result instantly on the webpage.  
+
+The Django app integrates the trained deep learning model and runs real-time inference,  
+making the system practical for real-world retail monitoring.
